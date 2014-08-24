@@ -1,0 +1,23 @@
+doctype
+html
+  head
+    title Brunel SubAqua
+    link(rel="stylesheet", href="/main.css")
+  body
+    header
+      .container
+        h1
+          a(href="/", style="color:#fff") Brunel Sub Aqua
+        nav
+          ul
+            li
+              a(href="/about") About
+            li
+              a(href="/events") Events
+            li
+              a(href="/contact") Contact
+            li
+              a(href="/join") Join
+    != yield
+
+    script(type="text/javascript", src="js/app.js")
